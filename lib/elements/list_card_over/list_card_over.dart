@@ -8,6 +8,7 @@ library polymer_app_layout.elements.layout_list_card_over;
 import 'package:polymer/polymer.dart';
 import 'package:polymer_app_layout_template/behaviors/behaviors.dart';
 import 'package:polymer_app_layout_template/elements/elements.dart';
+import 'package:polymer_app_layout_template/elements/animatable_page/animatable_page.dart';
 import 'package:web_components/web_components.dart' show HtmlImport;
 
 import 'package:polymer_elements/neon_animation/animations/slide_from_left_animation.dart';
