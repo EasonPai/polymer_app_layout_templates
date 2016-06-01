@@ -54,8 +54,9 @@ Extended Header + List Left + Card Over Toolbar
 
                 <div class="content">
 
-                    <neon-animated-pages class="fit" id="pages" selected="{{routeIdx}}" valueattr="hash"
-                                         entry-animation="slide-from-left-animation" exit-animation="slide-right-animation">
+                    <!--<neon-animated-pages class="fit" id="pages" selected="{{routeIdx}}" valueattr="hash"-->
+                                         <!--entry-animation="slide-from-left-animation" exit-animation="slide-right-animation">-->
+                    <neon-animated-pages class="fit" id="pages" selected="{{routeIdx}}" valueattr="hash">
                         <template is="dom-repeat" items="{{config}}">
                             <neon-animatable class="layout vertical" hash="{{item.path}}">
                             <!--<section class="layout vertical" hash="{{item.path}}">-->
