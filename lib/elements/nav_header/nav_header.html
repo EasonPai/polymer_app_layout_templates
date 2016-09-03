@@ -80,9 +80,9 @@ Left Nav + View
                     <div class="layout horizontal flex">
                         <neon-animated-pages class="flex" id="pages" selected="{{routeIdx}}" valueattr="hash">
                             <template is="dom-repeat" items="{{config}}">
-                                <section class="layout vertical flex" hash="{{item.path}}">
+                                <animatable-page  class="layout vertical" hash="{{item.path}}">
                                     <polymer-include-element element="[[item.element]]"></polymer-include-element>
-                                </section>
+                                </animatable-page>
                             </template>
                         </neon-animated-pages>
                     </div>
